@@ -20,5 +20,6 @@ def reduce(array, starting_point = 0)
 
   if new == true
     return new
+  else false
   end
 end
