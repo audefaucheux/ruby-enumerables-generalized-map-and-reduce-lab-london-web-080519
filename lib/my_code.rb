@@ -10,11 +10,13 @@ def map(array)
 end
 
 def reduce(array, starting_point = nil)
-  i = 0
 
   if starting_point
     new = starting_point
-  else new = nil
+    i = 0
+  else 
+    new = array[0]
+    i = 1
   end
 
   while i < array.length do
