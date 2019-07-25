@@ -16,6 +16,10 @@ map([1, 2, 3, -9]) do |array|
   end
 end
 
+map([1, 2, 3, -9]) do |array|
+  array
+end
+
 def reduce
 
 end
