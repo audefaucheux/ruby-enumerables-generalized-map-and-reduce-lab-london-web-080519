@@ -18,7 +18,7 @@ def reduce(array, starting_point = 0)
     i += 1
   end
 
-  if new == true
+  if new
     return new
   else false
   end
