@@ -9,6 +9,11 @@ def map(array)
   return new
 end
 
-def reduce
-
+def reduce(array)
+  i = 0
+  new = 0
+  while i < array.length do
+    new += yield(array[i])
+  end
+  return new
 end
