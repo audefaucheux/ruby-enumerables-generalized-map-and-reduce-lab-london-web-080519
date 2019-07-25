@@ -6,6 +6,7 @@ def map(array)
     new.push(yield(array[i]))
     i += 1
   end
+  return new
 end
 
 def reduce
