@@ -7,7 +7,7 @@ def map(array)
   return array
 end
 
-map(1, 2, 3, -9) do |array|
+map([1, 2, 3, -9]) do |array|
   i = 0
   new = []
   while i < array.length do
