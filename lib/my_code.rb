@@ -10,8 +10,7 @@ def map (array)
     squared.push(array[i] ** 2)
     i += 1
   end
-  puts negative
-  puts array
+  return negative
 end
 
 def reduce
