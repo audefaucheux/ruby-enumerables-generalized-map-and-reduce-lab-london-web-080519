@@ -14,6 +14,7 @@ def reduce(array)
   new = 0
   while i < array.length do
     yield(new += (array[i]))
+    i += 0
   end
   return new
 end
