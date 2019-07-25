@@ -18,7 +18,7 @@ def reduce(array, starting_point = 0)
     if array[i]
       new = yield(new, array[i])
       i += 1
-      true
+      return true
     end
     
   end
