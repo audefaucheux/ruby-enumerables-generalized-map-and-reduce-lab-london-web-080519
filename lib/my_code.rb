@@ -19,4 +19,5 @@ def reduce(array, starting_point = 0)
   end
 
   new
+  return true
 end
