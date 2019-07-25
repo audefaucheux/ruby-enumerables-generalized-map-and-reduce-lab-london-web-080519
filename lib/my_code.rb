@@ -1,6 +1,12 @@
 # Your Code Here
 def map (array)
-  map(array){ |n| n * -1}
+  new = []
+  i = 0
+  while i < array.length do
+    new.push(array[i] * -1)
+    i += 1
+  end
+  return new
 end
 
 def reduce
