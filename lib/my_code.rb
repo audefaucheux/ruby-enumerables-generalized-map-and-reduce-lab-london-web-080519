@@ -5,6 +5,7 @@ def map (array)
   while i < array.length do
     new.push(array[i] * -1)
   end
+  return new
 end
 
 def reduce
