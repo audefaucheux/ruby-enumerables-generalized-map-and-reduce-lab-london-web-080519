@@ -8,11 +8,10 @@ def map(array)
     #squared.push(array[i] ** 2)
     i += 1
   end
-  return negative
 end
 
 map([1, 2, 3, -9]) do |i|
-  puts [1, 2, 3, -9] * -1
+  puts [1, 2, 3, -9][i] * -1
 end
 
 def reduce
