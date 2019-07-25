@@ -9,11 +9,12 @@ def map(array)
   return new
 end
 
-def reduce(array)
+def reduce(array, starting_point = 0)
   i = 0
-  new = 0
+  new = starting_point
   while i < array.length do
-    yield(new += (array[i]))
+    new += array[i]
+    yield(new, i)
     i += 1
   end
   return new
