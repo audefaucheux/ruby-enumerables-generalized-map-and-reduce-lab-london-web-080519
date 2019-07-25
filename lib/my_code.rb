@@ -17,6 +17,6 @@ def reduce(array, starting_point = 0)
     new = yield(new, array[i])
     i += 1
   end
-
-  return new
+  
+  new
 end
