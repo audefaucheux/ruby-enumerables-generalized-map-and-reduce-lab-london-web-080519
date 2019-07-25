@@ -13,7 +13,7 @@ def reduce(array)
   i = 0
   new = 0
   while i < array.length do
-    new += yield(array[i]))
+    new += yield(array[i])
     i += 1
   end
   return new
