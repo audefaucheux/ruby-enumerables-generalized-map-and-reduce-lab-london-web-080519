@@ -1,6 +1,8 @@
 # Your Code Here
 def map (array)
-  new = []
+  negative = []
+  doubled = []
+  squared = []
   i = 0
   while i < array.length do
     negative.push(array[i] * -1)
