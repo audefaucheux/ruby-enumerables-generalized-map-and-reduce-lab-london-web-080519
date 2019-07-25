@@ -16,7 +16,7 @@ map([1, 2, 3, -9]) do |array|
   end
 end
 
-map([dune]) do |array|
+map(dune) do |array|
   array
 end
 
