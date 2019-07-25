@@ -11,7 +11,7 @@ def map(array)
 end
 
 map([1, 2, 3, -9]) do |i|
-  puts [1, 2, 3, -9][i] * -1
+  [1, 2, 3, -9][i] * -1
 end
 
 def reduce
