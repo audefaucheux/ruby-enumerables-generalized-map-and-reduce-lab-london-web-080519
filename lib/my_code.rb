@@ -18,10 +18,5 @@ def reduce(array, starting_point = 0)
     i += 1
   end
 
-  if new
-    return new
-  elsif new = 0
-    true  
-  else false
-  end
+  return new
 end
